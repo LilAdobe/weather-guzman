@@ -61,13 +61,13 @@ var displayWeather = function (city, searchName) {
     var infoEl = document.createElement('span');
     infoEl.textContent = cityData;
 
-    cityEl.appendChild(infoEl);
+    //cityEl.appendChild(infoEl);
 
-    var currentWetEl = document.createElement('span');
+   // var currentWetEl = document.createElement('span');
     currentWetEl.classList = 'flex-row align-center';
 
-   cityEl.appendChild(currentWetEl);
-   weatherContainerEl.appendChild(cityEl);
+   //cityEl.appendChild(currentWetEl);
+   //weatherContainerEl.appendChild(cityEl);
 }
 
 

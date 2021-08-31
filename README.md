@@ -1,4 +1,4 @@
-# weather-guzman
+# Weather Guzman HW
 
 ## Description
 1. Added the html layout for the weather dashboard. Where the inputs go.
@@ -11,4 +11,4 @@
 2. [Github](https://github.com/LilAdobe/weather-guzman)
 ## Screenshot
 
-<img src="assets/weather-hw.PNG">
+<img src="assets/weather-hw.png">
