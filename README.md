@@ -7,8 +7,8 @@
 4. Still need to add local.storage.
 
 ## Links
-1. [Homework Deployed Website link]()
-2. [Github]()
+1. [Homework Deployed Website link](https://liladobe.github.io/weather-guzman/)
+2. [Github](https://github.com/LilAdobe/weather-guzman)
 ## Screenshot
 
-<img src="assets/weather-hw.png">
+<img src="assets/weather-hw.PNG">
