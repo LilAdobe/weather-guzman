@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <link href="style.css">
+</head>
+
+<body>
+    <header class="hero">
+        <h1 class="dash-title" class="header">Weather Dashboard</h1>
+    </header>
+
+
+    <main class="flex-row justify-space-between"></main>
+    <div>
+        <div class="card">
+            <h2 class=" card-header text-uppercase">Search for a City:</h2>
+            <form id="city-form">
+                <label class="form-label" for="cityname">City Name</label>
+                <input name="cityName" id="cityName" type="text" autofocus="true" class="form-input" />
+                <button type="submit" class="searchbtn">Search</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h3>USA Cities</h3>
+            <div id="city-buttons" class="card-body">
+                <button data-City="Austin" class="btn">Austin</button>
+                <button data-City="New-York" class="btn">New York</button>
+                <button data-City="Atlanta" class="btn">Atlanta</button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="subtitle">Showing Weather for:<span id="city-search-name"></span></h2>
+        <div id="city-container" class="list-weather"></div>
+    </div>
+
+</body>
+
+<script src=script.js></script>
+
+</html>
