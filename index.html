@@ -21,7 +21,7 @@
             <h2 class=" card-header text-uppercase">Search for a City:</h2>
             <form id="city-form">
                 <label class="form-label" for="cityname">City Name</label>
-                <input name="cityName" id="cityName" type="text" autofocus="true" class="form-input" />
+                <input name="cityName" id="cityname" type="text" autofocus="true" class="form-input" />
                 <button type="submit" class="searchbtn">Search</button>
             </form>
         </div>
@@ -36,10 +36,14 @@
         </div>
     </div>
 
-    <div>
-        <h2 class="subtitle">Showing Weather for:<span id="city-search-name"></span></h2>
+    <section>
+        <h2 class="subtitle">Showing Weather for : <span id="city-search-name"></span></h2>
         <div id="city-container" class="list-weather"></div>
-    </div>
+        <p id="temp">Temperature</p>
+        <p id="wind" >Wind Speed</p>
+        <p id="humid">Humidity</p>
+        <p id="UV index">UV Index</p>
+    </section>
 
 </body>
 
