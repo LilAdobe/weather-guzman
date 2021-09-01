@@ -41,7 +41,7 @@ var SubmitHandler = function (event) { // should be able to enter the city name 
 
 //--forcast
 var getCityForcast = function (city) {
-    var weatherApi1 = "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=" + APIKey;
+    var weatherApi1 = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=" + APIKey;
 
     fetch(weatherApi1)
         .then(function (response) {
@@ -87,7 +87,7 @@ var displayForcast = function (cityData, cityName1) {
 //--UV
 
 var getCityUv = function (city) {
-    var WeatherApi = "http://api.openweathermap.org/data/2.5/onecall?q=" + city + "&appid=" + APIKey;
+    var WeatherApi = "https://api.openweathermap.org/data/2.5/onecall?q=" + city + "&appid=" + APIKey;
 
     fetch(WeatherApi)
         .then(function (response) {
@@ -122,7 +122,7 @@ var displayUv = function (cityData, cityName1) {
 //--UV
 
 var getCityWeather = function (city) {
-    var WeatherApi = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
+    var WeatherApi = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
 
     fetch(WeatherApi)
         .then(function (response) {

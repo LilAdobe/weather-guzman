@@ -12,4 +12,4 @@
 2. [Github](https://github.com/LilAdobe/weather-guzman)
 ## Screenshot
 
-<img src="assets/weather-hw.png">
+<img src="Assets\shweather.png">
